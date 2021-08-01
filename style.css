@@ -45,6 +45,7 @@ section {
   display: flex;
   flex: 1;
   flex-direction: column;
+  margin:auto;
 }
 
 section figure img {
@@ -57,5 +58,9 @@ section figure img {
 }
 
 .logo {
-  display: inline-block;
+  position: absolute;
+  bottom: 90%;
+  left: 32px;
+  font-size: 2rem;
+  font-weight: 700;
 }
