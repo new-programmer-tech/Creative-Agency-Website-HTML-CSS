@@ -97,12 +97,11 @@ navigation.active {
   text-decoration: none;
   color: #111;
   font-size: 30px;
-  transition: all .5s;  
+  transition: all 0.5s;
 }
 
-.navigation ul li a:hover{
-  color:steelblue;
-
+.navigation ul li a:hover {
+  color: steelblue;
 }
 
 .navigation .social-icons {
