@@ -80,13 +80,9 @@ section figure img {
   z-index: 30;
 }
 
-
-
-.close{
-  display:none ;
+.close {
+  display: none;
 }
-
-
 
 /* .navigation {
   margin: auto;
@@ -103,10 +99,9 @@ section figure img {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
-.hide{
+.hide {
   display: none;
 }
 navigation.active {
@@ -152,8 +147,6 @@ navigation.active {
   cursor: pointer;
 }
 
-
-
 .content .btn:hover {
   transform: scale(0.98);
 }
@@ -174,3 +167,31 @@ navigation.active {
 }
 
 /*------------------------------- SERVICES----------------------- */
+.s-logo
+{
+  position: absolute;
+  bottom: 90%;
+  left: 62px;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 20;
+  /* border:2px solid; */
+}
+.s-content {
+  border: 2px solid;
+  display: block;
+  margin: auto;
+  margin-top: 10rem;
+  max-width: 1412px;
+  padding:10px 35px 15px 30px;
+}
+
+.s-content h1{
+  margin-bottom:1rem;
+}
+
+.s-content p{
+  line-height: 1.6;
+}
+
+
