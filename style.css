@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 html,
@@ -171,14 +171,14 @@ navigation.active {
 {
   position: absolute;
   bottom: 90%;
-  left: 62px;
+  left: 88px;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
   /* border:2px solid; */
 }
 .s-content {
-  border: 2px solid;
+  /* border: 2px solid; */
   display: block;
   margin: auto;
   margin-top: 10rem;
@@ -194,4 +194,46 @@ navigation.active {
   line-height: 1.6;
 }
 
+.cards{
+  margin-top:50px;
+  margin-left:50px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  grid-gap:50px;
+  padding: 100px 20px; 
+  text-align: center;
+
+  /* display:flex;
+  flex-direction: row;
+  border:2px solid; */
+}
+
+.card-1
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#f4f4f4;
+  width: 80%;
+  margin-bottom:3rem;
+  /* border:2px solid; */
+  cursor:pointer;
+  
+}
+.card-1:hover{
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.card-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-1 .icon img{
+  max-width: 100px;
+}
 
